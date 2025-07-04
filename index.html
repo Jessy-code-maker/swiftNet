@@ -7,10 +7,17 @@
     <title>SwiftNet</title>
 </head>
 <body>
+    <div class="header-wrapper">
     <header>
         <div class="logo">
             <h1>SwiftNet</h1>
         </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+        <label for="menu-toggle" class="hamburger">
+         <span></span>
+         <span></span>
+         <span></span>
+         </label>
         <nav class="nav-items">
             <a href="#home">Home</a>
             <a href="#services">Services</a>
@@ -19,10 +26,12 @@
             <a href="#resources">Resources</a>
         </nav>
     </header>
+    </div>
     <main>
         <section class="hero">
-            <p>Post scan of the heart</p>
-            <p>WE TAKE GOOD CARE OF THE HEART</p>
+            <h1>Welcome to SwiftNet</h1>
+            <h2>Heart Care. Anytime. Anywhere.</h2>
+            <p>Get expert heart support without the wait.<br> From virtual checkups to real-time health tracking, swiftnet makes staying heart-healthy simple and stress-free.</p>
             <div class="auth-buttons">
                 <button class="button-login">Login</button>
                 <button class="button-sign-up">Sign-up</button>
@@ -30,46 +39,43 @@
         </section>
          <p>About cardiology</p>
         <p>TAKE THE ROAD TO A HEALTHY HEART BEAT</p>
-        <div class="container">
+        <div class="container" id="one">
              <div class="card">
              <h2>THE GREATEST WEALTH IS HEALTHY HEART</h2> 
-             <p>MAKE AN APPOINTMENT</p>
-             <p>1,500 heart surgery performs more than 6,400 catheterization procedure every year.</p>
+             <p class="card-text">Over 1,500 heart surgeries and 6,400 catheterization procedures performed yearly—because the greatest wealth is a healthy heart. Make your appointment today!</p>
              <div class="button-container">
                 <button>More Details</button>
              </div> 
         </div>
          <div class="card">
-            <h5>A GENERAL CARDIOLOGY CONSULTATIN</h5>
-            <p>A cardiologist can help you reduce risk. improve overall heart health through nutrition changes.</p>
+            <h5>A  General Cardiology Consultation</h5>
+            <p class="card-text">Discover how a cardiologist can help you reduce your heart disease risk and improve your overall heart health with personalized nutrition and lifestyle strategies.</p>
             <div class="button-container"><button>More Details</button></div>
         </div>
         </div>
 
         <p>About performing</p>
         <p>WE'RE PERFORMING AT HIGHER STANDARDS</p>
-        <div class="container">
-        <div class="card">
+        <div class="container" id="two">
+        <div class="card" id="list-card">
             <h3>AN EMERGENCY SERVICE</h3>
-            <p>Main Services</p>
-            <p> inside our services</p>
-            <ul>
-                <li>certified by HROF society</li>
-                <li>provided by Chest Pain Unit</li>
-                <li>The leading Cardiac Units</li>
+            <p> Our Services</p>
+            <ul class="hide-on-small">
+                <li>Certified by the HROF Society</li>
+                <li>Supported by a Dedicated Chest Pain Unit</li>
+                <li>Delivered by Leading Cardiac Care Experts</li>
             </ul>
             <div class="button-container">
                 <button>More Details</button>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="list-card">
             <h4>INDIVIDUAL APPROACH</h4>
-            <p>Main Services</p>
-            <p>Inside Our Services</p>
-            <ul>
-                <li>standby 365 days of the year.</li>
-                <li>Catheterization procedures</li>
-                <li>Heart surgery procedures</li>
+            <p>Our Services</p>
+            <ul class="hide-on-small">
+                <li>Standby 365 days a year.</li>
+                <li>Expert catheterization procedures</li>
+                <li>Advanced heart surgery procedures</li>
             </ul>
             <div class="button-container"><button>More Details</button></div>
         </div>
@@ -77,15 +83,15 @@
 
         <p>Cardio Heart Blogs</p>
         <p>AN EVERYTHING CARDIO HEART KNOWLEDGE</p>
-        <div class="container">
+        <div class="container" id="three">
         <div class="card">
             <h5>HOW TO TAKE CARE OF HEART?</h5>
-            <p>The medical experts carefully transplant the heart you are nothing without your set eyes care set injury ma... </p>
+            <p class="card-text">Your heart beats for you every day—here's how to return the favor and keep it strong for life.... </p>
             <div class="button-container"><button>More Details</button></div>
         </div>
         <div class="card">
             <h6>CAN DEPRESSION INCREASE YOUR RISK FOR HEART...</h6>
-            <p>The medical experts carefully transplant the heart you are nothing without your set eye care</p>
+            <p class="card-text">Can your mood affect your heart? Discover how depression may silently raise your risk for heart disease.</p>
             <div class="button-container"><button>More Details</button></div>
         </div>
       </div>
