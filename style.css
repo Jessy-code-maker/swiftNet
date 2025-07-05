@@ -296,23 +296,37 @@ a:focus-visible {
         z-index: 3;
     }
 
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .hero p {
+    margin: 0.25rem;
+    }
+
   #about-section, #services-section, #blogs-section {
         background-size: cover;
         background-position: center;
         height: 50vh;
-  }
+   }
 
    .card-text, .hide-on-small {
         display: none;
     }
 
+    .button-container {
+        height: 46px;
+    }
+
     .button-container button {
         padding: 6px 12px;
-        font-size: 1rem;
+        height: 1.8em;
+        margin: 10px;
         border: 1px solid #ffffff;
     }
     #list-card, .card {
         height: auto;
+        padding: 15px;
     }
 
     .container {
@@ -347,7 +361,19 @@ a:focus-visible {
         display: flex;
     }
 
+    section h2 {
+       font-size: 0.8em;
+    }
+
+    .card h3 {
+       font-size: 0.9em;
+    }
+
+    .card p {
+       font-size: 0.6em;
+    }
 }
+
 @media (min-width: 781px) {
     .nav-items {
         display: flex;
@@ -362,4 +388,49 @@ a:focus-visible {
     .menu-toggle {
         display: none;
     }
+
+    .hero h2 {
+    margin: 0.25rem;
+    }
+
+    section h2 {
+       font-size: 1.5em;
+    }
+
+    .card h3 {
+       font-size: 1.17em;
+    }
+
+    .card-text, .hide-on-small {
+        display:flex ;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .hide-on-small {
+        display:flex ;
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+
+    .card p {
+       font-size: 1em;
+    }
+
+    .card h3 {
+       font-size: 1.2em;
+    }
+
+    
+    .hero h2 {
+   font-size: 1.3em;
+    }
+
+    .hero h1 {
+   font-size: 2.5em;
+    }
+
+
 }
