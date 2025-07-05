@@ -120,6 +120,14 @@ header {
     font-size: 4rem;
 }
 
+.hero h2 {
+    margin: 0.5rem;
+}
+
+.hero p {
+    margin: 0.5rem;
+}
+
 /* auth is short for authentication */
 .auth-buttons {
     margin: 5px;
