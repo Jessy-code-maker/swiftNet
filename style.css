@@ -63,6 +63,7 @@ header {
     position: relative;
     z-index: 2;
 }
+
 .hamburger span {
     display: block;
     position: absolute;
@@ -195,7 +196,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     align-items: center;
     justify-content: center;
-    margin: 0 4%;
+    margin: 1% 4%;
     height: 260px;
     border-radius: 10px 10px;
     animation: fade-in 4s ease;
@@ -284,7 +285,7 @@ a:focus-visible {
     }
 }
 
-@media (max-width:780px) {
+@media (max-width:745px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -321,13 +322,14 @@ a:focus-visible {
         margin: 0.625rem;
         border: 1px solid #ffffff;
     }
-    #list-card, .card {
+
+    #list-card, .card{
         height: auto;
         padding: 0.9375rem;
     }
 
     .container {
-        gap: 15px;
+        gap: 10px;
         padding: 0 0.625rem; 
     }
 
@@ -371,21 +373,7 @@ a:focus-visible {
     }
 }
 
-@media (min-width: 781px) {
-    .nav-items {
-        display: flex;
-        flex-direction: row;
-        position: static;
-        width: auto;
-        padding: 0;
-        background: none;
-    }
-
-    .hamburger,
-    .menu-toggle {
-        display: none;
-    }
-
+@media (min-width: 746px) {
     .hero h2 {
     margin: 0.25rem;
     }
@@ -398,34 +386,8 @@ a:focus-visible {
        font-size: 1.17em;
     }
 
-    .card-text, .hide-on-small {
-        display:flex ;
-        flex-direction: column;
-    }
-
-}
-
-@media (min-width: 768px) {
     .hide-on-small {
         display:flex ;
         flex-direction: column;
-        font-size: 0.8em;
-    }
-
-    .card p {
-       font-size: 1em;
-    }
-
-    .card h3 {
-       font-size: 1.2em;
-    }
-
-    
-    .hero h2 {
-        font-size: 1.3em;
-    }
-
-    .hero h1 {
-        font-size: 2.5em;
     }
 }
